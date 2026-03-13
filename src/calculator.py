@@ -21,3 +21,4 @@ def divide(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+very_long_text = "This is a very very very very very very very very very very very very very very long line for lint error"
